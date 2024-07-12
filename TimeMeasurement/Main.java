@@ -25,6 +25,15 @@ public class Main {
 
     // 테스트 하고싶은 코드 performTask() 메서드 내에 입력
     public static void performTask() {
+
+        String len = "JAVA,";
+        //String len = "JAVA,SPRING,HTML";
+        String[] arr = len.split(",");
+
+        System.out.println("arr : " + Arrays.toString(arr));
+        for (int i=0 ; i<arr.length ; i++) {
+            System.out.println(arr[i]);
+        }
         
 /*
         Random random = new Random();

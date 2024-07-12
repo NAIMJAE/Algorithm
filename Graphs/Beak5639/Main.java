@@ -1,4 +1,4 @@
-package Beak5639;
+package Graphs.Beak5639;
 
 import java.util.Scanner;
 /*
