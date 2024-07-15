@@ -3,7 +3,6 @@ package DynamicProgramming.Beak1904;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 /*
  * [백준 DynamicProgramming 단계별로 풀기 step.3]
