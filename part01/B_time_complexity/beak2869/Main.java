@@ -13,5 +13,18 @@ public class Main {
         int B = sc.nextInt();
         int V = sc.nextInt();
 
+        if (A >= V) { 
+            System.out.println(1);
+            return;
+        }
+
+        int V2 = V - A;
+        int C = A - B ;
+
+        int D = V2 / C;
+        int E = V2 % C;
+
+        if (E == 0) { System.out.print(D+1); }
+        if (E > 0) { System.out.print(D+2); }
     }
 }
