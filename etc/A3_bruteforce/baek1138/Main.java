@@ -1,4 +1,4 @@
-package A3_bruteforce.baek1138;
+package etc.A3_bruteforce.baek1138;
 
 import java.util.Scanner;
 
@@ -22,7 +22,6 @@ public class Main {
         int[] line = new int[N];           // 줄에 선 사람 번호 (0이면 아직 빈 자리)
 
 //
-
 
 
 //
